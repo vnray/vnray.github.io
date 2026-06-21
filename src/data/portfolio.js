@@ -1,6 +1,6 @@
 import traveltriangle from '../assets/projects/traveltriangle.png'
 import prithu from '../assets/projects/Prithu.png'
-import expanseTracker from '../assets/projects/Expanse-Tracker.png'
+import expanseTracker from '../assets/projects/Expanse-Tracker.jpg'
 import epackbook from '../assets/projects/e-packbook.png'
 import edgetelecom from '../assets/projects/EdgeTelecome.png'
 
