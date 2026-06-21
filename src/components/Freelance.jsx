@@ -33,10 +33,10 @@ export default function Freelance() {
           className="mb-6 md:mb-10"
         >
           <span className="text-[11px] text-[#FF6B35] font-mono tracking-widest uppercase mb-2 md:mb-3 block">Freelance</span>
-          <h3 className="text-3xl sm:text-5xl font-bold text-white font-display leading-[1.1]">
+          <h2 className="text-3xl sm:text-5xl font-bold text-white font-display leading-[1.1]">
             Available for{' '}
             <span className="bg-gradient-to-r from-[#FF6B35] to-[#FFB088] bg-clip-text text-transparent">Projects</span>
-          </h3>
+          </h2>
           <div className="flex flex-wrap items-center gap-4 mt-4">
             <div className="flex items-center gap-2">
               <span className="relative flex w-2 h-2">
@@ -66,7 +66,7 @@ export default function Freelance() {
                     {serviceIcons[service.icon]}
                   </svg>
                 </div>
-                <h4 className="text-white font-semibold mb-2">{service.title}</h4>
+                <h3 className="text-white font-semibold mb-2">{service.title}</h3>
                 <p className="text-gray-500 text-sm leading-relaxed mb-4">{service.desc}</p>
                 <div className="flex flex-wrap gap-1.5">
                   {service.tags.map((tag) => (

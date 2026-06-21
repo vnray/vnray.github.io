@@ -32,10 +32,10 @@ export default function Skills() {
           className="mb-6 md:mb-10"
         >
           <span className="text-[11px] text-[#FF6B35] font-mono tracking-widest uppercase mb-2 md:mb-3 block">Skills</span>
-          <h3 className="text-3xl sm:text-5xl font-bold text-white font-display leading-[1.1]">
+          <h2 className="text-3xl sm:text-5xl font-bold text-white font-display leading-[1.1]">
             Technical{' '}
             <span className="bg-gradient-to-r from-[#FF6B35] to-[#06B6D4] bg-clip-text text-transparent">Expertise</span>
-          </h3>
+          </h2>
         </motion.div>
 
         <div className="flex items-center gap-2 mb-4 md:mb-6 flex-wrap">

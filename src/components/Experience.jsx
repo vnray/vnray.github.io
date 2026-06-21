@@ -17,10 +17,10 @@ export default function Experience() {
           className="mb-6 md:mb-10"
         >
           <span className="text-[11px] text-[#FF6B35] font-mono tracking-widest uppercase mb-2 md:mb-3 block">Experience</span>
-          <h3 className="text-3xl sm:text-5xl font-bold text-white font-display leading-[1.1]">
+          <h2 className="text-3xl sm:text-5xl font-bold text-white font-display leading-[1.1]">
             Professional{' '}
             <span className="bg-gradient-to-r from-[#FF6B35] to-[#FFB088] bg-clip-text text-transparent">Journey</span>
-          </h3>
+          </h2>
         </motion.div>
 
         <div className="relative space-y-4 md:space-y-6">
@@ -35,7 +35,7 @@ export default function Experience() {
               <div className="absolute left-0 top-1.5 w-[18px] h-[18px] rounded-full border-2 border-[#FF6B35]/40 bg-[#080808] group-hover:border-[#FF6B35] group-hover:shadow-[0_0_15px_rgba(255,107,53,0.2)] transition-all" />
               <div className="bg-white/[0.02] border border-white/[0.06] rounded-xl p-5 md:p-6 group-hover:border-white/[0.1] group-hover:bg-white/[0.03] transition-all">
                 <div className="flex flex-col sm:flex-row sm:items-center gap-1 sm:gap-3 mb-2">
-                  <h4 className="text-white font-semibold text-lg">{exp.role}</h4>
+                  <h3 className="text-white font-semibold text-lg">{exp.role}</h3>
                   {exp.url ? (
                     <a href={exp.url} target="_blank" rel="noopener noreferrer" className="text-[#FF6B35]/60 hover:text-[#FF6B35] text-sm font-mono transition-colors">
                       @ {exp.company}

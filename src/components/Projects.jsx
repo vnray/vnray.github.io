@@ -82,10 +82,10 @@ export default function Projects() {
           className="mb-6 md:mb-10"
         >
           <span className="text-[11px] text-[#FF6B35] font-mono tracking-widest uppercase mb-2 md:mb-3 block">Work</span>
-          <h3 className="text-3xl sm:text-5xl font-bold text-white font-display leading-[1.1]">
+          <h2 className="text-3xl sm:text-5xl font-bold text-white font-display leading-[1.1]">
             Featured{' '}
             <span className="bg-gradient-to-r from-[#FF6B35] to-[#06B6D4] bg-clip-text text-transparent">Projects</span>
-          </h3>
+          </h2>
         </motion.div>
 
         <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-5">

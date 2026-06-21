@@ -18,10 +18,10 @@ export default function About() {
           className="mb-6 md:mb-10"
         >
           <span className="text-[11px] text-[#FF6B35] font-mono tracking-widest uppercase mb-2 md:mb-3 block">About</span>
-          <h3 className="text-3xl sm:text-5xl font-bold text-white font-display leading-[1.1]">
+          <h2 className="text-3xl sm:text-5xl font-bold text-white font-display leading-[1.1]">
             Beyond the
             <span className="bg-gradient-to-r from-[#FF6B35] to-[#FFB088] bg-clip-text text-transparent"> code</span>
-          </h3>
+          </h2>
         </motion.div>
 
         <div className="grid lg:grid-cols-5 gap-6 md:gap-10 items-start">

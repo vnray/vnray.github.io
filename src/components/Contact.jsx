@@ -48,10 +48,10 @@ export default function Contact() {
           className="mb-6 md:mb-10"
         >
           <span className="text-[11px] text-[#FF6B35] font-mono tracking-widest uppercase mb-2 md:mb-3 block">Contact</span>
-          <h3 className="text-3xl sm:text-5xl font-bold text-white font-display leading-[1.1]">
+          <h2 className="text-3xl sm:text-5xl font-bold text-white font-display leading-[1.1]">
             Let's work{' '}
             <span className="bg-gradient-to-r from-[#FF6B35] to-[#06B6D4] bg-clip-text text-transparent">together</span>
-          </h3>
+          </h2>
           <p className="text-gray-600 text-sm mt-3 max-w-lg">
             Have a project, idea, or just want to connect? Drop a message and I'll get back within 24 hours.
           </p>
